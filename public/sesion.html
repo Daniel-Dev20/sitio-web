@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Iniciar Sesion</title>
+	<link rel="stylesheet" type="text/css" href="css2/sesion.css">
+	<link rel="stylesheet" type="text/css" href="css/all.min.css">
+	<!-- jquery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+ 
+	<!-- slider -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+	  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+	  	<!--- moment js para fechas-->
+
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+		  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+
+		  <!--script javascript-->
+		  <script type="text/javascript" src="js/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/inicio.js"></script>
+	
+	
+</head>	
+<body>
+
+	<section class="global">
+		<header>
+			<div class="logo">
+				<div class="titulo">
+					<h1> <a href="inicio.html">learning</a></h1>
+				</div>
+				<div class="buscar"><input type="text" name="buscar" placeholder="Buscar un curso">	
+				</div>
+			<div class="lupa"><button type="submit" id="icono"><i class="fas fa-search"></i></button></div>
+				<div class="registrarse">
+					<button  role="link" onclick="window.location= 'sesion.html'">iniciar sesion</button>
+				<button  role="link" onclick="window.location='formulario.html'">Registrarse</button>
+				</div>	
+
+			</div>		
+		</header>	
+		<div id=usuario>
+			<form>
+				
+				<p>
+					<label for="email"> <i class="far fa-envelope" class="iconForm"></i>Email:</label>
+					<input type="email" name="email" placeholder="Correo Electronico" >
+				</p>
+
+				<p>
+					<label for="password"><i class="fas fa-lock" class="iconForm"></i></i>Contraseña:</label>
+					<input type="password" name="password" placeholder="Contraseña">
+				</p>
+				<div class="send">
+					<input type="submit"  value="iniciar sesion">
+				</div>		
+			</form>
+		</div>
+			
+	</section>
+	<div class="barra">
+		<div class="facebook">
+		<a href="https://www.facebook.com/"> <i class=" face fab fa-facebook-square" id="face"></i> </a>
+		</div>
+		<div class="twitter">
+			<a href="https://twitter.com/login?lang=es"><i class="fab fa-twitter" id="twi"></i></a>
+		</div>
+		<div class="instagram">
+			<a href="https://www.instagram.com/?hl=es-la"><i class="fab fa-instagram" id="insta"></i></a>
+		</div>
+		<div class="youtube">
+			<a href="https://www.youtube.com/"><i class="fab fa-youtube" id="youtube"></i></a>
+		</div>
+	</div>
+</div>
+<footer>Creado por Daniel Arevalo &copy</footer>
+</div>
+</body>
+
+
+
+
+</html>

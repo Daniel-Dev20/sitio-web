@@ -1,0 +1,321 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.clear
+{
+	float: none;
+	clear: both;
+}
+body
+{
+		background-image: url("../img/logeo9.svg");
+		background-size: 100%;
+		background-attachment: fixed;
+		
+		
+		
+		
+		
+
+}
+.barra
+{
+	position: fixed;
+	top: 40%;
+	background: rgba(51, 51, 51, 0.5);
+	width: 50px;
+	height: 200px;
+}
+.facebook,
+.twitter,
+.instagram,
+.youtube
+{
+	width: 35px;
+	height: 35px;
+	border: 1px solid white;
+	display: block;
+	margin: 0px auto;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.face
+{
+
+	font-size: 30px;
+	padding: 3px;
+	margin-left: 2px;
+	color:black;
+
+	
+}
+.face:hover{
+	color: white;
+}
+.facebook:hover
+{
+	background: #1e3c72;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2a5298, #1e3c72);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2a5298, #1e3c72); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#twi
+{
+	font-size: 30px;
+	padding: 3px;
+	color: black;
+}
+#twi:hover
+{
+	color:white;
+}
+.twitter:hover
+{
+	background: #2193b0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#insta
+{
+	font-size: 30px;
+	padding: 3px;
+	margin-left: 2px;
+    color: black;
+	
+}
+#insta:hover
+{
+	color:white;
+}
+
+.instagram:hover
+{
+	background: #833ab4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#youtube
+{
+	font-size: 30px;
+	padding: 1px;
+	margin-top: 1px;
+	color: black;
+}
+#youtube:hover
+{
+	color:white;
+}
+.youtube:hover
+{
+	background: #e52d27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #b31217, #e52d27);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #b31217, #e52d27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.global
+{
+	margin-top: -20px;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: -5px;
+	height: 550px;
+
+}
+.logo
+{
+
+	
+	font-size: 26px;
+	letter-spacing: 5px;
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	margin-top: 5px;
+	background: #ED213A;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+
+
+}
+.titulo a
+{
+	width: 20%;
+	float: left;
+	display: block;
+	margin-right: 10px;
+	text-transform: uppercase;
+	margin-top: 5px;
+	margin-left: 30px;
+	color: white;
+	text-decoration: none;
+}
+.titulo:hover
+{
+	cursor: pointer;
+}
+
+.buscar
+{
+	width: 30%;
+	height: 60px;
+	float: left;
+	margin-left: 100px;
+	
+
+}
+.buscar input
+{
+	width: 100%;
+	height: 35px;
+	font-size: 17px;
+	margin-top: 10px;
+
+}
+.buscar button
+{
+	width: 5px;
+	font-size: 5px;
+	height: 10px;
+
+}
+.lupa
+{
+	width: fit-content;
+	height: 90%;
+	margin-left: 2px;
+	display: inline-block;
+	
+}
+#icono
+{
+	width: 50px;
+	height: 30px;
+	margin-top: 15px;
+}
+#icono:hover
+{
+	cursor: pointer;
+}
+.registrarse
+{
+	width: fit-content;
+	display: block;
+	float: right;
+	
+	
+}
+.registrarse button
+{
+	margin-top: 5px;
+
+}
+.registrarse button:hover
+{
+	cursor: pointer;
+	background: #ED213A;  
+	background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+	background: linear-gradient(to right, #93291E, #ED213A); 
+	border-style: none;
+	color: white;
+}
+.botonBus
+{
+	width: 20%;
+	height: 10px;
+}
+.logo button
+{
+	width: 45%;
+	height: 50px;
+	float: right;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 5px;
+	margin: 5px;
+
+}
+#usuario
+{
+
+	width: 50%;
+	height: 400px;
+	margin: 0px auto;
+	margin-top: 50px;;
+}
+
+#usuario input
+{
+	width: 315px;
+	height: 45px;
+	display: block;
+	margin-top: 10px;
+	margin-left: 150px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+	
+	
+}
+label{
+	padding: 20px;
+	margin-top: 10px;
+	font-size: 25px;
+	margin-left: 135px;
+	color:black;
+
+}
+.send
+{
+	width: 90%;
+	margin-top: 10px;
+	height: 100px;
+	margin-top: 20px;
+	
+
+}
+.send input[type="submit"]
+{
+	width: 320px;
+	height: 45px;
+	text-transform: uppercase;
+
+
+}
+
+footer
+{
+	text-align: center;
+	font-family: helvetica, arial;
+	color: white;
+	height: 47px;
+	background: rgba(51, 51, 51, 0.70);
+	margin:  0px auto;
+	width: 65%;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	line-height: 47px;
+}
+.appear
+{
+	width: fit-content;
+	margin:0px auto;
+	margin-top: 30px;;
+	background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.appear p
+{
+	font-size: 50px;
+	text-align: center;
+	color:white;
+}
